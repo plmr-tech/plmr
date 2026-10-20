@@ -1,0 +1,9 @@
+APIToken: <ваш токен T-Invest API>
+EndPoint: invest-public-api.tbank.ru:443
+AppName: plmr
+AccountId: ""
+DisableResourceExhaustedRetry: false
+DisableAllRetry: false
+MaxRetries: 3
+# сертификат API выдан УЦ Минцифры, Windows ему не доверяет — даём корень только боту
+TLSCACertFile: certs/russian_trusted_ca.pem
